@@ -1,0 +1,4 @@
+author = Ultlang, DatWeedek & Zidan
+version = 0.0.0.4
+displayName = Ultlang's, Weedek's and Zidan's mod
+buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*
