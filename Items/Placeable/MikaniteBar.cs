@@ -30,7 +30,8 @@ namespace UltWedZit.Items.Placeable
 		{
 			ModRecipe recipe = new ModRecipe(mod);
 			recipe.AddIngredient(mod.ItemType("MikaniteOre"), 3);
-			recipe.SetResult(this);
+            recipe.AddTile(TileID.Furnaces);
+            recipe.SetResult(this);
 			recipe.AddRecipe();
 		}
 	}

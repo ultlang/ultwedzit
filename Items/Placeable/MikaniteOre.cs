@@ -25,12 +25,5 @@ namespace UltWedZit.Items.Placeable
 			item.height = 12;
 			item.value = 3000;
 		}
-        public override void AddRecipes()
-		{
-        ModRecipe recipe = new ModRecipe(mod);
-            recipe.AddIngredient(ItemID.DirtBlock);    
-			recipe.SetResult(this);
-			recipe.AddRecipe();
-        }
 	}
 }
